@@ -24,3 +24,10 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.bgBlue{
+  background-color: #0B1871;
+}
+
+
+
