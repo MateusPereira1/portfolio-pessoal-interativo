@@ -29,6 +29,10 @@ body {
   background-color: #0B1871;
 }
 
+.bgGray{
+  background-color: rgba(103, 117, 210, 0.31);
+}
+
 .banner{
   background-image: url(./../../public/background.png);
   background: no-repeat center cover;
