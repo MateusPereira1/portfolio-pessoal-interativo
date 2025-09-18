@@ -12,7 +12,7 @@ export default function Banner() {
         <Link
         href="/about"
         className="bgBlue text-white font-bold  text-lg  rounded-lg px-16 py-2 mt-5 hover:px-23 transition-all "
-        >Ver Projetos</Link>
+        >Sobre Mim</Link>
             
 
         </div>
