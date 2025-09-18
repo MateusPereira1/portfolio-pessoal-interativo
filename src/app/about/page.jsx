@@ -22,9 +22,9 @@ export default function Home() {
         <div className="w-full px-10 md:px-2 md:w-1/3 flex flex-col justify-start">
 
           <h1 className="font-bold text-5xl">Sobre mim</h1>
-          <p className="text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod eligendi alias libero,
-            culpa placeat, possimus adipisci quae illum, neque in unde dolore? Cupiditate corrupti
-            nulla vitae aut eum, laborum sapiente harum rerum qui fuga iste voluptatibus saepe alias. Ut, ipsa.</p>
+          <p className="text-xl">Sou estudante de Desenvolvimento de Sistemas, com foco em criação de aplicações web e design de interfaces. 
+            Tenho experiência com tecnologias como HTML, CSS, JavaScript, React e Node.js. Busco constantemente aprender novas ferramentas e 
+            aprimorar minhas habilidades para desenvolver soluções funcionais e bem estruturadas.</p>
         </div>
 
       </div>
