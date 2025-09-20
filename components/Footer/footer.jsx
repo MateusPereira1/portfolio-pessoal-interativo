@@ -8,7 +8,7 @@ function Social(props) {
             <a target="__blank" href={props.link}>
 
 
-        <div className=" cursor-pointer flex flex-row px-6 py-2 rounded justify-center items-center gap-4 bg-white text-black text-bold my-2">
+        <div className=" cursor-pointer flex flex-row px-6 py-2 rounded justify-center items-center gap-4  text-white text-bold my-2">
 
 
                 <Image
@@ -51,7 +51,7 @@ export default function Footer(props) {
                     link="https://linkedin.com"
                 />
                 <Social
-                    path="/instagram.png"
+                    path="/insta.png"  
                     alt="Instagram logo"
                     nome="Instagram"
                     link="https://instagram.com"
