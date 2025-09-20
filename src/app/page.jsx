@@ -1,8 +1,7 @@
-import Header from "../../../components/header/Header";
-import Footer from "../../../components/Footer/footer";
-import CardProject from "../../../components/cardProject/cardProject";
-import SubBanner from "../../../components/SubBanner/SubBanner";
-
+import Header from "../../components/header/Header";
+import Banner from "../../components/Banner/Banner";
+import Footer from "../../components/Footer/footer";
+import CardProject from "../../components/cardProject/cardProject";
 
 
 
@@ -10,13 +9,10 @@ export default function Home() {
   return (
     <div className="bg-white">
       <Header />
+      <Banner />
+      
 
-      <SubBanner
-      title="Projetos"
-      />
-
-
-<div className="w-full min-h-screen py-40 px-10 grid grid-cols-1 md:px-42 gap-10 sm:grid-cols-2 md:grid-cols-3 justify-center">
+  <div className="w-full min-h-screen py-40 px-10 grid grid-cols-1 md:px-42 gap-10 sm:grid-cols-2 md:grid-cols-3 justify-center">
  
           <CardProject
            src="/orienta.png"
@@ -68,8 +64,10 @@ export default function Home() {
  
  
        </div>
+ 
 
       <Footer />
+
     </div>
   );
 }
