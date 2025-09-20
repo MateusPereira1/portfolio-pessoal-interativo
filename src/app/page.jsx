@@ -4,6 +4,12 @@ import Footer from "../../components/Footer/footer";
 import CardProject from "../../components/cardProject/cardProject";
 
 
+export const metadata = {
+  title: "Mateus portfólio | Home",
+  description: "Desenvolvedor Front-end apaixonado por criar soluções digitais",
+
+};
+
 
 export default function Home() {
   return (

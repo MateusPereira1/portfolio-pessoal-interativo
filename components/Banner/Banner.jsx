@@ -6,7 +6,7 @@ export default function Banner() {
         <div className="h-180 px-4 banner text-black flex flex-col alight-center justify-center items-center gap-4">
 
 
-            <h1 className="md:text-6xl font-bold text-center text-white text-100 uppercase w-full text-4xl md:w-2/3">Olá, sou Mateus, desenvolvedor front-end</h1>
+            <h1 className="md:text-6xl font-bold text-center text-white text-100 uppercase w-full text-4xl md:w-2/3">Olá, sou Mateus, desenvolvedor <br /> front-end</h1>
             <p className="text-center font-light text-2xl w-full md:w-1/2 text-white">Crio portfólios e interfaces interativas com React e Tailwind</p>
 
         <Link

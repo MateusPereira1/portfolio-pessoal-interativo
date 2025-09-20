@@ -3,6 +3,11 @@ import Footer from "../../../components/Footer/footer";
 import CardProject from "../../../components/cardProject/cardProject";
 import SubBanner from "../../../components/SubBanner/SubBanner";
 
+export const metadata = {
+  title: "Mateus portfólio | Projetos",
+  description: "Desenvolvedor Front-end apaixonado por criar soluções digitais",
+
+};
 
 
 

@@ -4,6 +4,14 @@ import Form from "../../../components/form/Form";
 import SubBanner from "../../../components/SubBanner/SubBanner";
 
 
+export const metadata = {
+  title: "Mateus portfólio | Contato",
+  description: "Desenvolvedor Front-end apaixonado por criar soluções digitais",
+
+};
+
+
+
 export default function Home() {
   return (
     <div className="bg-black">

@@ -63,7 +63,7 @@ export default function Footer(props) {
 
 
             <div className="banner w-full h-15 items-center flex justify-center">
-                <h1 className="font-normal text-ml"> © 2025 Mateus Pereira. Todos os direitos reservados.</h1>
+                <h1 className="font-normal text-ml text-center "> © 2025 Mateus Pereira. Todos os direitos reservados.</h1>
 
             </div>
 

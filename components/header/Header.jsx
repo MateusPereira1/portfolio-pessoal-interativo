@@ -2,7 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 export default function Header() {
     return (
-        <div className="bgBlue p-4 block flex-row justify-center md:px-48 sm:flex ">
+        <Link href="/" className="bgBlue p-4 block flex-row justify-center md:px-48 sm:flex ">
             <div className="flex justify-center md:justify-start items-center gap-4 w-full flex-row">
                 <Image
                     alt="Logo Mateus"
@@ -19,6 +19,6 @@ export default function Header() {
                 <Link href="/projects" className="hover:text-gray-400 font-bold text-base  ">Projetos</Link>
                 <Link href="/contact" className="hover:text-gray-400 font-bold text-base  ">Contato</Link>
             </nav>
-        </div>
+        </Link>
     );
 }

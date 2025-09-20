@@ -3,6 +3,13 @@ import Footer from "../../../components/Footer/footer";
 import Skill from "../../../components/Skill/Skill";
 
 
+export const metadata = {
+  title: "Mateus portfólio | Sobre Mim",
+  description: "Desenvolvedor Front-end apaixonado por criar soluções digitais",
+
+};
+
+
 import Image from "next/image";
 export default function Home() {
   return (
@@ -16,7 +23,7 @@ export default function Home() {
           alt="Profile image"
           width={300}
           height={300}
-          className="rounded-xl"
+          className="rounded-full"
         />
 
         <div className="w-full px-10 md:px-2 md:w-1/3 flex flex-col justify-start">
